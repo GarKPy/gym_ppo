@@ -228,7 +228,7 @@ if __name__ == "__main__":
     # print("agent.get_action_and_value(next_obs): ", agent.get_action_and_value(next_obs))
     
 
-    best_return = -201.0
+    best_return = 300.0
     for update in range(1, num_updates + 1):
         # Annealing the rate if instructed to do so
         if args.anneal_lr:
